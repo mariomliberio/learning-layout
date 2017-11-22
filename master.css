@@ -22,7 +22,7 @@ nav {
 }
 
 section{
-  margin-left: 200px;
+  margin-left: 300px;
   border-color: yellow;
   border-style: solid;
 }
@@ -41,10 +41,24 @@ footer{
 
 img {
   float: right;
-  margin: 0 0 1em 1em;
+  margin: 0 0 0 0;
 }
 
+.sections{
+  border-color: yellow;
+  border-style: solid;
 
+
+
+}
+
+.nav{
+  float: left;
+  width: 25%;
+  border-color: pink;
+  border-style: solid;
+
+}
 
 .navi{
   float: left;
@@ -64,7 +78,16 @@ img {
   margin-left: -200px;
 }
 
+.merefix{
+  overflow: auto;
+  border-color: yellow;
+  border-style: solid;
+  width:800px;
+  margin:20px auto;
+  max-width: 600px;
+  max-height: 300px;
 
+}
 
 .clearfix{
   overflow: auto;
@@ -205,6 +228,16 @@ img {
   border-color: pink;
   border-style: solid;
 
+}
+#hamster{
+float: right;
+width: 50%;
+margin-left: -20px;
+}
+
+#hamstertext{
+  float: left;
+  width: 50%;
 }
 
 #main{
