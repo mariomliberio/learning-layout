@@ -9,7 +9,6 @@ body{
 
 p{
 
-
 }
 
 nav {
@@ -18,6 +17,7 @@ nav {
   width: 195px;
   border-color: pink;
   border-style: solid;
+
 
 }
 
@@ -42,6 +42,56 @@ footer{
 img {
   float: right;
   margin: 0 0 1em 1em;
+}
+
+
+
+.navi{
+  float: left;
+  width: 205px;
+  border-style: solid;
+  border-color: pink;
+}
+
+.clearfixi{
+  overflow: auto;
+  border-color: lightcyan;
+  border-style: solid;
+
+}
+
+.section{
+  margin-left: -200px;
+}
+
+
+
+.clearfix{
+  overflow: auto;
+  border-color: lightcyan;
+  border-style: solid;
+  width:800px;
+  margin:20px auto;
+}
+
+.fixclear{
+  width:800px;
+  margin:20px auto;
+  border-style: solid;
+  border-color: lightcyan;
+}
+
+.box{
+  float:left;
+  width: 200px;
+  height: 100px;
+  margin-left: 1em;
+  border-style: solid;
+  border-color: lightcyan;
+}
+
+.after-box {
+  clear: left;
 }
 
 .float{
