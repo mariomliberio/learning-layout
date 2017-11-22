@@ -1,0 +1,27 @@
+head{
+
+}
+
+body{
+
+
+}
+
+p{
+
+
+}
+
+.page{
+
+
+}
+
+.display{
+  display: grid;
+border: bold;
+border-color: lightcyan;
+border-width: thick;
+border-style: solid;
+
+}
