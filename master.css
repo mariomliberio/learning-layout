@@ -4,7 +4,7 @@ head{
 
 body{
 
-
+  border-width: thick;
 }
 
 p{
@@ -12,16 +12,158 @@ p{
 
 }
 
-.page{
+nav {
+  position:absolute;
+  left: 0px;
+  width: 195px;
+  border-color: pink;
+  border-style: solid;
 
+}
+
+section{
+  margin-left: 200px;
+  border-color: yellow;
+  border-style: solid;
+}
+
+footer{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 70px;
+  background-color: white;
+  width: 100%;
+  border-color: green;
+  border-style: solid;
+  text-align: center;
+}
+
+img {
+  float: right;
+  margin: 0 0 1em 1em;
+}
+
+.float{
+  background-color: lightgray;
+  color: purple;
+  width: 500px;
+  margin: 20px auto;
+
+}
+
+.container{
+  position:relative;
+  border-color: lightcyan;
+  border-style: solid;
 
 }
 
 .display{
-  display: grid;
-border: bold;
-border-color: lightcyan;
-border-width: thick;
-border-style: solid;
+
+  border: bold;
+  border-style: solid;
+
+}
+
+.simple{
+  width:500px;
+  margin:20px auto;
+  border-style: solid;
+  border-color: lightcyan;
+}
+
+.fancy{
+  width: 500px;
+  margin: 20px auto;
+  padding: 50px;
+  border-width:10px;
+  border-style: solid;
+  border-color: lightcyan;
+}
+
+.simple5{
+  width: 500px;
+  margin: 20px auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+          border-style: solid;
+          border-color: lightcyan;
+}
+
+.fancy5{
+  width:500px;
+  margin:20px auto;
+  padding:50px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+          border-style: solid;
+          border-color: lightcyan;
+          border-width: 10px;
+
+}
+
+.static{
+  position: static;
+  border-style: solid;
+  border-color: lightcyan;
+
+}
+
+.relative1{
+  position:relative;
+  border-color: lightcyan;
+  border-style: solid;
+}
+
+.relative2{
+  position:relative;
+  top: -20px;
+  left: 20px;
+  background-color: white;
+  width: 500px;
+  border-style: solid;
+  border-color: pink;
+}
+
+.fixed{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 200px;
+  background-color: white;
+  border-style:solid;
+  border-color: yellow;
+}
+
+.relative{
+  position:relative;
+  width: 600px;
+  height: 400px;
+  border-color: lightcyan;
+  border-style: solid;
+}
+
+.absolute{
+  position: absolute;
+  top: 120px;
+  right: 0;
+  width: 300px;
+  height:200px;
+  border-color: pink;
+  border-style: solid;
+
+}
+
+#main{
+  width:600px;
+  max-width:600px;
+  margin: 0 auto;
+  border-style: solid;
+  border-width: thick;
+
+
 
 }
