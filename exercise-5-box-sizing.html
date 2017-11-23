@@ -3,7 +3,30 @@
   <head>
     <meta charset="utf-8">
     <title>CSS: Box Sizing</title>
-    <link rel="stylesheet" href="/home/minty/git/learn-layout/master.css">
+    <!--<link rel="stylesheet" href="/home/minty/git/learn-layout/master.css">-->
+    <style media="screen">
+    .simple5{
+width: 500px;
+margin: 20px auto;
+-webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border-style: solid;
+        border-color: lightcyan;
+}
+
+.fancy5{
+width:500px;
+margin:20px auto;
+padding:50px;
+-webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border-style: solid;
+        border-color: lightcyan;
+        border-width: 10px;
+}
+    </style>
   </head>
   <body>
     <div class="simple5">
