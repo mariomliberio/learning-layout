@@ -3,11 +3,25 @@
   <head>
     <meta charset="utf-8">
     <title>CSS: Position Example</title>
-    <link rel="stylesheet" href="master.css">
+    <link rel="stylesheet" href="/home/minty/git/learn-layout/master.css">
+    <style media="screen">
+    nav {
+      position:absolute;
+      left: 0px;
+      width: 195px;
+      border-color: pink;
+      border-style: solid;
+      }
+    section {
+      margin-left: 200px;
+      border-color: yellow;
+      border-style: solid;
+    }
+    </style>
   </head>
   <body>
     <div class="container">
-      <nav><a href="/home/minty/git/learn-layout/exercise-7-positionexample.html"><ul><li>Home</li><li>Taco Menu</li><li>Draft List</li><li>Hours</li><li>Directions</li><li>Contact</li></ul></a></nav>
+    <nav><a href="/home/minty/git/learn-layout/exercise-7-positionexample.html"><ul><li>Home</li><li>Taco Menu</li><li>Draft List</li><li>Hours</li><li>Directions</li><li>Contact</li></ul></a></nav>
       <section>
         <p> The margin-left style for sections makes sure there is room for the nav. Otherwise the absolute and static elements would overlap </p>
       </section>

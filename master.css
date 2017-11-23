@@ -1,30 +1,5 @@
-head{
-
-}
-
 body{
-
   border-width: thick;
-}
-
-p{
-
-}
-
-nav {
-  position:absolute;
-  left: 0px;
-  width: 195px;
-  border-color: pink;
-  border-style: solid;
-
-
-}
-
-section{
-  margin-left: 300px;
-  border-color: yellow;
-  border-style: solid;
 }
 
 footer{
@@ -47,31 +22,12 @@ img {
 .sections{
   border-color: yellow;
   border-style: solid;
-
-
-
-}
-
-.nav{
-  float: left;
-  width: 25%;
-  border-color: pink;
-  border-style: solid;
-
-}
-
-.navi{
-  float: left;
-  width: 205px;
-  border-style: solid;
-  border-color: pink;
 }
 
 .clearfixi{
   overflow: auto;
   border-color: lightcyan;
   border-style: solid;
-
 }
 
 .section{
@@ -86,7 +42,6 @@ img {
   margin:20px auto;
   max-width: 600px;
   max-height: 300px;
-
 }
 
 .clearfix{
@@ -122,21 +77,17 @@ img {
   color: purple;
   width: 500px;
   margin: 20px auto;
-
 }
 
 .container{
   position:relative;
   border-color: lightcyan;
   border-style: solid;
-
 }
 
 .display{
-
   border: bold;
   border-style: solid;
-
 }
 
 .simple{
@@ -175,14 +126,12 @@ img {
           border-style: solid;
           border-color: lightcyan;
           border-width: 10px;
-
 }
 
 .static{
   position: static;
   border-style: solid;
   border-color: lightcyan;
-
 }
 
 .relative1{
@@ -227,8 +176,8 @@ img {
   height:200px;
   border-color: pink;
   border-style: solid;
-
 }
+
 #hamster{
 float: right;
 width: 50%;
@@ -246,7 +195,4 @@ margin-left: -20px;
   margin: 0 auto;
   border-style: solid;
   border-width: thick;
-
-
-
 }

@@ -3,7 +3,20 @@
   <head>
     <meta charset="utf-8">
     <title>CSS: Percent Width</title>
-    <link rel="stylesheet" href="master.css">
+    <link rel="stylesheet" href="/home/minty/git/learn-layout/master.css">
+    <style media="screen">
+nav{
+  float:left;
+  width: 24.7%;
+  border-color: pink;
+  border-style: solid;
+}
+    section{
+margin-left: 25%;
+border-color: yellow;
+border-style: solid;
+}
+    </style>
   </head>
   <body>
     <article class="merefix">
@@ -14,9 +27,9 @@
     <br>
     <br>
     <div class="container">
-      <div class="nav">
-      <nav><a href="/home/minty/git/learn-layout/exercise-12-percent-width.html"><ul><li>Home</li><li>Taco Menu</li><li>Draft List</li><li>Hours</li><li>Directions</li><li>Contact</li></ul></a></nav>
-      </div>
+       <nav>
+         <a href="/home/minty/git/learn-layout/exercise-12-percent-width.html"><ul><li>Home</li><li>Taco Menu</li><li>Draft List</li><li>Hours</li><li>Directions</li><li>Contact</li></ul></a>
+       </nav>
     <article class="sections">
       <section>
       <p>When this layout is too narrow, the nav gets squished. Worse, you can't use min-width on the nav to fix it, because the right column wouldn't respect it. </p>
