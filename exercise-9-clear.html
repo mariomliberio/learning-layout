@@ -3,14 +3,28 @@
   <head>
     <meta charset="utf-8">
     <title>CSS: Clear</title>
-    <link rel="stylesheet" href="/home/minty/git/learn-layout/master.css">
+    <!--<link rel="stylesheet" href="/home/minty/git/learn-layout/master.css">-->
     <style media="screen">
 
-    section{
-      margin-left: 300px;
+    .section{
+      
       border-color: yellow;
       border-style: solid;
     }
+    .box{
+  float:left;
+  width: 200px;
+  height: 100px;
+  margin-left: 1em;
+  border-style: solid;
+  border-color: lightcyan;
+}
+
+.after-box {
+  clear: left;
+  border-color: yellow;
+  border-style: solid;
+}
     </style>
   </head>
   <body>
