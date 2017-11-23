@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>CSS: Media Queries</title>
+    <link rel="stylesheet" href="/home/minty/git/learn-layout/master.css">
+    <style media="screen">
+      .bae{
+          border-color: pink;
+          border-style: solid;
+      }
+      .query{
+        border-color: yellow;
+        border-style: solid;
+      }
+     @media screen and (min-width:600px) {
+      .bae {
+        float: left;
+        width: 25%;
+      }
+      .query {
+        margin-left: 25%;
+
+      }}
+     @media screen and (max-width:599px) {
+       .bae {
+         display: inline;
+
+       }}
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="bae">
+        <a href="/home/minty/git/learn-layout/exercise-13-media-queries.html"><ul><li>Home</li><li>Taco Menu</li><li>Draft List</li><li>Hours</li><li>Directions</li><li>Contact</li></ul></a>
+       </div>
+      <div class="query"> Now when you resize your browser it's even cooler than ever!
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit.
+    </div>
+    </div>
+  </body>
+</html>
